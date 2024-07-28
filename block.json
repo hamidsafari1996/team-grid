@@ -1,0 +1,58 @@
+{
+	"apiVersion": 2,
+	"name": "edmember-block/team-members",
+	"title": "Team Members",
+	"category": "media",
+	"icon": "groups",
+	"description": "A team members grid.",
+	"keywords": ["Team", "Members", "Grid"],
+	"supports": {
+		"html": false,
+		"align": ["wide"]
+	},
+	"textdomain": "ed-members",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css",
+	"attributes": {
+		"columns": {
+			"type": "number",
+			"default": 2
+		},
+		"alignment": {
+			"type": "string",
+			"default": "left"
+		},
+		"textColor": {
+			"type": "string"
+		},
+		"bioColor": {
+			"type": "string"
+		}
+	},
+	"example": {
+		"attributes": {
+			"columns": 2
+		},
+		"innerBlocks": [
+			{
+				"name": "edmember-block/team-member",
+				"attributes": {
+					"name": "John Doe",
+					"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque nibh, tincidunt ut facilisis vitae, ullamcorper sit amet lectus. Proin porta vulputate purus.",
+					"url": "https://picsum.photos/id/1012/300/200",
+					"socialLinks": [{"icon": "facebook"}, {"icon": "twitter"}, {"icon":"instagram"}]
+				}
+			},
+			{
+				"name": "edmember-block/team-member",
+				"attributes": {
+					"name": "Jane Doe",
+					"bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam neque nibh, tincidunt ut facilisis vitae, ullamcorper sit amet lectus. Proin porta vulputate purus.",
+					"url": "https://picsum.photos/id/1011/300/200",
+					"socialLinks": [{"icon": "facebook"}, {"icon": "twitter"}, {"icon":"instagram"}]
+				}
+			}
+		]
+	}
+}
