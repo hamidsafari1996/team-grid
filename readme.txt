@@ -10,10 +10,7 @@ Example block written with ESNext standard and JSX support – build step requir
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
-
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Dieses WordPress-Plugin fügt einen neuen Gutenberg-Block hinzu, um Ihre Teammitglieder anzuzeigen. Dieser Block wurde mit React.js entwickelt und bietet eine hohe Anpassungsfähigkeit
 
 == Installation ==
 
