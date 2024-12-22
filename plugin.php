@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       ED block member
+ * Plugin Name:       ED Team member
  * Description:       A team members grid.
  * Requires at least: 5.7
  * Requires PHP:      7.0
